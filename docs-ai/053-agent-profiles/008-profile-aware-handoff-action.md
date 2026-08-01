@@ -4,7 +4,7 @@
 | --- | --- |
 | **Date** | 2026-08-01 |
 | **Status** | Implemented |
-| **Primary PRs** | TBD |
+| **Primary PRs** | [#651](https://github.com/onevcat/Prowl/pull/651) |
 | **Design** | [053.007](007-profile-aware-handoff.md) |
 
 ## Result
