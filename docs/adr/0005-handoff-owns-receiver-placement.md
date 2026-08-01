@@ -1,0 +1,3 @@
+# Handoff owns receiver placement
+
+A profile-aware handoff always creates its receiving agent in a new background tab, ignoring the selected Prowl Agent Profile's manual-launch `Open In` placement. The profile still supplies its runtime configuration, environment, account, and identity. An ordinary CLI handoff, or a handoff whose HUD is no longer waiting, leaves the receiver in the background; a HUD that is still waiting for that request focuses the exact launched receiver pane after success. This preserves the core launcher's no-layout-disruption contract while keeping the existing HUD completion behavior.

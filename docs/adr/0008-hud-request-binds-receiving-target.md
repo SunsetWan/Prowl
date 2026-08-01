@@ -1,0 +1,3 @@
+# HUD request binds its source and operation
+
+Each HUD-generated request binds its request UUID to the source pane and exact operation selected by the user: checkpoint, Runtime Default handoff, or Profile-aware handoff with launch enabled. The CLI service claims the request only when the source and operation match. A mismatch rejects that command before briefing or artifact mutation without consuming the pending request, so the source agent may correct and retry. Ordinary CLI handoffs without a HUD request UUID remain independent, and fallback supersession continues to invalidate the original request.
