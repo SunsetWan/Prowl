@@ -3,7 +3,7 @@
 | | |
 | --- | --- |
 | **Date** | 2026-08-01 |
-| **Status** | Planned |
+| **Status** | Implemented (see [053.008](008-profile-aware-handoff-action.md)) |
 | **Primary PRs** | TBD |
 | **Related** | [053 plan](000-plan.md), [053.006](006-launch-scoped-environment.md), [047.004](../047-cross-agent-handoff/004-inline-handoff-redesign.md), [047.005](../047-cross-agent-handoff/005-hud-request-ownership.md), [049 Agents HUD](../049-agents-toolbar-entry/000-plan.md), [048 runtime adapters](../048-agent-runtime-adapters/000-plan.md), [handoff manual](../../docs/components/handoff.md) |
 

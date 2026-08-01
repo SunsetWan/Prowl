@@ -333,10 +333,11 @@ ambient "当前/推荐 profile" 来改变目标。后续 053.007 绑定稳定 UU
 
 ## Amendments
 
-- Updated 2026-08-01: planned Profile-aware handoff across HUD, CLI, request ownership, and the shared
-  Profile launch boundary, while retaining Runtime Default compatibility and keeping native Codex
-  profile selection in Extra Arguments — see
-  [007-profile-aware-handoff.md](007-profile-aware-handoff.md).
+- Updated 2026-08-01: implemented Profile-aware handoff across HUD, CLI, request ownership, and the
+  shared Profile launch boundary, while retaining Runtime Default compatibility and keeping native
+  Codex profile selection in Extra Arguments — design in
+  [007-profile-aware-handoff.md](007-profile-aware-handoff.md), result in
+  [008-profile-aware-handoff-action.md](008-profile-aware-handoff-action.md).
 
 - Updated 2026-07-31: **环境补丁语义从 surface-scoped 改为 launch-scoped** — onevcat
   定位出"Agents 启动 → agent 退出 → 手动 codex 继承 profile env"的串号链,环境补丁
