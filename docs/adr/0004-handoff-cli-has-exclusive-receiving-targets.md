@@ -1,3 +1,0 @@
-# Handoff CLI has exclusive receiving targets
-
-`prowl handoff to` accepts exactly one receiving target: the existing runtime argument such as `codex`, or `--agent-profile-id <UUID>`. The profile form derives its runtime from the resolved Prowl Agent Profile, so the protocol cannot represent a contradictory agent token and profile runtime; display names remain presentation-only. Because the existing positional grammar assigns its first value to the runtime and its second to the source, the profile form accepts an explicitly named source only through `--pane`, `--tab`, or `--worktree`; omitting a selector still means the calling pane. Runtime-targeted handoffs retain the existing optional positional source for backward compatibility.
